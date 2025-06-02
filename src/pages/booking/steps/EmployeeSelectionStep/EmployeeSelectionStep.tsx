@@ -7,9 +7,7 @@ import { StepsFooter } from "../../../../components";
 
 const employees = [
   { value: 'any', label: 'Any Available', avatar: null },
-  { value: 'alice', label: 'Alice Johnson', avatar: 'https://randomuser.me/api/portraits/women/1.jpg' },
-  { value: 'bob', label: 'Bob Smith', avatar: 'https://randomuser.me/api/portraits/men/2.jpg' },
-  { value: 'carol', label: 'Carol White', avatar: 'https://randomuser.me/api/portraits/women/3.jpg' },
+  { value: 'Natalia', label: 'Natalia Novikova', avatar: 'https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/472668842_3612532575704954_8099608643304190020_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=UTsJ3vhMH9IQ7kNvwGUSdz1&_nc_oc=AdnvrzF6cYdDsay7yZN58n8MkGBDwCyaZDyb452hv5-R_VJ03hOcYG79jDdQMEYZ1JLw5puuvHfiMKUHQo6KjE2U&_nc_zt=23&_nc_ht=scontent-hou1-1.xx&_nc_gid=UH7JB0ewgxiMc58qsj1RPQ&oh=00_AfKZ_TckRnkFM-IRIflWAOjsZSzt9TPXTr3IpmXGhgBOhQ&oe=6843E267' }
 ];
 
 const employeeData: any = employees.map((emp) => ({
