@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cleanhome.web/static/css/main.44007f56.css",
-    "main.js": "/cleanhome.web/static/js/main.297a6a40.js",
+    "main.js": "/cleanhome.web/static/js/main.f6003259.js",
     "static/media/cleaning service-amico.svg": "/cleanhome.web/static/media/cleaning service-amico.cbde378f3418786c42a2b00174b2505b.svg",
     "static/media/sweet.png": "/cleanhome.web/static/media/sweet.66e6e6f86393f0660604.png",
     "static/media/empty.svg": "/cleanhome.web/static/media/empty.ccce02f392931aaeb0dc9f4a5d23cdaf.svg",
@@ -10,10 +10,10 @@
     "static/media/home.svg": "/cleanhome.web/static/media/home.7b18d429f636aa7f672480b813ffc24e.svg",
     "index.html": "/cleanhome.web/index.html",
     "main.44007f56.css.map": "/cleanhome.web/static/css/main.44007f56.css.map",
-    "main.297a6a40.js.map": "/cleanhome.web/static/js/main.297a6a40.js.map"
+    "main.f6003259.js.map": "/cleanhome.web/static/js/main.f6003259.js.map"
   },
   "entrypoints": [
     "static/css/main.44007f56.css",
-    "static/js/main.297a6a40.js"
+    "static/js/main.f6003259.js"
   ]
 }
