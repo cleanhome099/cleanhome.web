@@ -28,7 +28,7 @@ export const Sidebar: FC<ISidebarProps> = () => {
           [styles.open_nav]: openMenu,
         })}>
           <ul className={styles.nav_list}>
-            <NavItem to="/unanyan.am" label={t("nav.home")} icon={<IconHome size={15} />} onClick={handleClose} />
+            <NavItem to="/cleanhome.web" label={t("nav.home")} icon={<IconHome size={15} />} onClick={handleClose} />
             <NavItem
               to="/services"
               label={t("nav.services")}
