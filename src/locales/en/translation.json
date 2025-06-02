@@ -1,0 +1,99 @@
+{
+  "home": {
+    "title": "Cleaning Services",
+    "offer": {
+      "weOffer": "We offer",
+      "deepCleaning": "Deep Cleaning 🧹",
+      "moveIn": "Move-In/Move-Out 🧽",
+      "apartment": "Apartment Cleaning 🏠"
+    },
+    "bookOnline": "Book Online"
+  },
+  "product": {
+    "title":"Book a Cleaning Service with Ease",
+    "text": "Whether it's a deep clean, regular maintenance, or post-renovation — we’re here to make your space shine. Simply choose the type of service, pick a convenient date, and select a professional. We’ll handle therest."
+  },
+  "career": {
+    "title":"Apply for a Position",
+    "text": "We’re excited that you’re interested in joining our team! Please complete the form below so we can learn more about you and your experience."
+  },
+  "contacts": {
+    "title":"Got any questions?",
+    "text": "If you have any questions or need further information, feel free to reach out using the form below."
+  },
+  "booking": {
+    "detailText": "Could you please provide a bit more detail about the space that needs to be cleaned?",
+    "selectAvailableDates": "Select available dates",
+    "selectPreferredEmployees": "Select preferred employees",
+    "choosePreferredStaff": "Choose preferred staff",
+    "listBelow": "Or select from the list below:",
+    "verify": "Please verify all details are correct before submitting your booking.",
+    "title":"Book Your Cleaning Service",
+    "text": "Fill out the form step by step to schedule your professional cleaning service. Choose a date, leave special requests, and select your preferred cleaner."
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "career": "Career",
+    "contact": "Contacts"
+  },
+  "error": {
+    "email": "Email is required",
+    "date": "Please select at least one date.",
+    "address": "Address is required",
+    "phone": "Phone number is required",
+    "firstName": "First name is required",
+    "lastName": "Last name is required"
+  },
+  "placeholder": {
+    "firstName": "Enter your first name",
+    "lastName": "Enter your last name",
+    "email": "example@email.com",
+    "phone": "+1 (555) 123-4567",
+    "additionalDetail": "Any additional details...",
+    "address": "Street, building, apartment"
+  },
+  "common": {
+    "peopleLoveUs": "People Love Us!",
+    "thankYou": "Thank you for using our service!",
+    "willCallYou": "Our manager will call you shortly.",
+    "Confirm & Submit": "Confirm & Submit",
+    "bookNow": "Book now",
+    "soon": "Soon",
+    "apartmentsHouse": "Apartments / House",
+    "carpet": "Сarpet",
+    "office": "Office",
+    "A/C": "A/C",
+    "roof": "Roof",
+    "goodPrice": "Good Price",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "comment": "Comment",
+    "back": "Back",
+    "dates": "Dates",
+    "employees": "Employees",
+    "next": "Next",
+    "whyChoose": {
+      "title":"Why Choose Our Cleaning Service?",
+      "results" : {
+        "title": "Spotless Results",
+        "text": "Your space will shine with our detailed and professional cleaning approach."
+      },
+      "timeSaving" : {
+        "title": "Time-Saving Service",
+        "text": "Your space will shine with our detailed and professional cleaning approach."
+      },
+      "trustedProfessionals" : {
+        "title": "Trusted Professionals",
+        "text": "All cleaners are background-checked, trained, and insured."
+      },
+      "EcoFriendly" : {
+        "title": "Eco-Friendly Products",
+        "text": "We use safe, green cleaning supplies for a healthy environment."
+      }
+    }
+  }
+}

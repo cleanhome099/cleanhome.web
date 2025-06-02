@@ -1,0 +1,87 @@
+@use "../../styles/abstracts" as * ;
+
+.aside {
+  position: fixed;
+  padding: 2rem;
+  z-index: 10;
+  transition: all 0.3s ease;
+}
+
+
+.back {
+  position: fixed;
+  z-index: -1;
+  transition: all 0.2s ease;
+  background-color: $cl-body;
+  width: 21rem;
+  height: 10rem;
+  top: -15rem;
+  left: -15rem;
+  border-radius: 0 0 4rem 0;
+  transform: rotate(45deg);
+}
+.loofah {
+  width: 12rem;
+  height: 12rem;
+  z-index: 1;
+  position: fixed;
+  top: -16rem;
+  left: -16rem;
+  transition: all 0.3s ease;
+}
+
+.nav {
+  position: fixed;
+  z-index: -1;
+  display: none;
+}
+
+.nav_list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+}
+
+.nav_link {
+  font-size: 1.5rem;
+  color: $cl-title;
+  font-weight: $fw-bold;
+}
+
+
+.nav_toggle {
+  position: fixed;
+  top: 1.25rem;
+  left: 1.875rem;
+  height: 40px;
+  width: 45px;
+  border: 1px solid $cl-brown;
+  background-color: $cl-body ;
+  justify-content: center;
+  align-items: center;
+  z-index: 99;
+  transition: .3s;
+}
+
+.nav_toggle {
+  display: flex;
+}
+
+.nav_toggle_open {
+  left: 14rem;
+}
+
+
+.open_loofah {
+  left: 6rem;
+  top: 6rem;
+}
+
+.open_nav {
+  display: block;;
+}
+
+.open_back {
+  top: 1.8rem;
+  left: -5rem;
+}

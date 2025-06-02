@@ -1,0 +1,28 @@
+.container {
+  min-height: 99vh;
+  margin-top: 1vh;
+  padding:  0 2rem;
+  background: radial-gradient(
+                  circle at top left,
+                  rgba(204, 202, 202, 0.15),
+                  transparent 40%
+  );
+}
+
+.section {
+  padding-top: 7rem;
+  padding-bottom: 2rem;
+}
+
+.basket_icon {
+  position: fixed;
+  bottom: 0.5rem;
+  right: 1.875rem;
+  z-index: 10;
+}
+
+@media screen and (max-width: 1024px) {
+  .main{
+    margin-left: 0;
+  }
+}

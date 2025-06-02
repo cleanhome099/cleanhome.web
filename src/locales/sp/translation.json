@@ -1,0 +1,99 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "career": "Carreras",
+    "contact": "Contacto"
+  },
+  "home": {
+    "title": "Servicios de Limpieza",
+    "offer": {
+      "weOffer": "Ofrecemos",
+      "deepCleaning": "Limpieza profunda 🧹",
+      "moveIn": "Limpieza de mudanza 🧽",
+      "apartment": "Limpieza de apartamentos 🏠"
+    },
+    "bookOnline": "Reservar en línea"
+  },
+  "product": {
+    "title": "Reserva un Servicio de Limpieza con Facilidad",
+    "text": "Ya sea una limpieza profunda, mantenimiento regular o limpieza después de una renovación, estamos aquí para hacer que tu espacio brille. Simplemente elige el tipo de servicio, selecciona una fecha conveniente y elige un profesional. Nosotros nos encargamos del resto."
+  },
+  "career": {
+    "title": "Solicita un Puesto",
+    "text": "¡Nos alegra que estés interesado en unirte a nuestro equipo! Por favor, completa el formulario a continuación para que podamos conocerte mejor y saber más sobre tu experiencia."
+  },
+  "contacts": {
+    "title": "¿Tienes preguntas?",
+    "text": "Si tienes alguna pregunta o necesitas más información, no dudes en contactarnos usando el formulario a continuación."
+  },
+  "error": {
+    "date": "Por favor, seleccione al menos una fecha.",
+    "email": "El correo electrónico es obligatorio",
+    "address": "La dirección es obligatoria",
+    "phone": "El número de teléfono es obligatorio",
+    "firstName": "El nombre es obligatorio",
+    "lastName": "El apellido es obligatorio"
+  },
+  "placeholder": {
+    "firstName": "Ingrese su nombre",
+    "lastName": "Ingrese su apellido",
+    "email": "ejemplo@correo.com",
+    "phone": "+1 (555) 123-4567",
+    "additionalDetail": "Cualquier detalle adicional...",
+    "address": "Calle, número, apartamento"
+  },
+  "booking": {
+    "detailText": "¿Podrías proporcionarnos más detalles sobre el espacio que necesita limpieza?",
+    "selectAvailableDates": "Selecciona fechas disponibles",
+    "selectPreferredEmployees": "Selecciona empleados preferidos",
+    "choosePreferredStaff": "Elige el personal preferido",
+    "listBelow": "O selecciona de la siguiente lista:",
+    "verify": "Por favor, verifica que todos los datos sean correctos antes de enviar tu reserva.",
+    "title": "Reserva Tu Servicio de Limpieza",
+    "text": "Completa el formulario paso a paso para programar tu servicio de limpieza profesional. Elige una fecha, deja solicitudes especiales y selecciona a tu limpiador preferido."
+  },
+  "common": {
+    "peopleLoveUs": "¡A la gente le encantamos!",
+    "thankYou": "¡Gracias por usar nuestro servicio!",
+    "willCallYou": "Nuestro gerente te llamará en breve.",
+    "Confirm & Submit": "Confirmar y Enviar",
+    "bookNow": "Reservar ahora",
+    "soon": "Pronto",
+    "apartmentsHouse": "Apartamentos / Casa",
+    "carpet": "Alfombra",
+    "office": "Oficina",
+    "phone": "Phone",
+    "roof": "Techo",
+    "A/C": "A/C",
+    "goodPrice": "Buen precio",
+    "firstName": "Nombre",
+    "lastName": "Apellido",
+    "email": "Correo electrónico",
+    "address": "Dirección",
+    "comment": "Comentario",
+    "back": "Atrás",
+    "dates": "Fechas",
+    "employees": "Empleados",
+    "next": "Siguiente",
+  "whyChoose": {
+      "title": "¿Por Qué Elegir Nuestro Servicio de Limpieza?",
+      "results": {
+        "title": "Resultados Impecables",
+        "text": "Tu espacio brillará con nuestro enfoque de limpieza detallado y profesional."
+      },
+      "timeSaving": {
+        "title": "Ahorro de Tiempo",
+        "text": "Nuestro servicio rápido y eficiente te permite enfocarte en lo que realmente importa."
+      },
+      "trustedProfessionals": {
+        "title": "Profesionales de Confianza",
+        "text": "Todos nuestros limpiadores tienen verificación de antecedentes, están capacitados y asegurados."
+      },
+      "EcoFriendly": {
+        "title": "Productos Ecológicos",
+        "text": "Usamos productos de limpieza seguros y ecológicos para un entorno saludable."
+      }
+    }
+  }
+}
