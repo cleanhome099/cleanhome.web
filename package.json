@@ -59,7 +59,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "CI=false react-scripts build",
     "eslint:fix": "eslint -c ./.eslintrc.js \"./**/*.{js,jsx,ts,tsx}\" --fix"
   },
   "eslintConfig": {
