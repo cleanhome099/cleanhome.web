@@ -1,0 +1,8 @@
+[build]
+  command = "npm run build"   # команда сборки React-приложения
+  publish = "build"           # папка с готовыми файлами после сборки
+
+[[redirects]]
+  from = "/*"                 # все запросы
+  to = "/index.html"          # должны отдавать index.html
+  status = 200                # с кодом 200 OK
