@@ -11,7 +11,7 @@ import { IconUser, IconAt, IconPhone, IconWorld } from "@tabler/icons-react";
 import { Button } from "../_ui";
 import { useMediaQuery } from "@mantine/hooks";
 
-export const JobApplicationFormStep = ({ errors, validate, form, setForm, onSubmit }: any) => {
+export const JobApplicationFormStep = ({ errors, form, setForm, onSubmit }: any) => {
 
   const isMobile = useMediaQuery("(max-width: 1100px)");
 

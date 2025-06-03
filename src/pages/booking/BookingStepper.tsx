@@ -1,4 +1,4 @@
-import { Card, Stack, Stepper, Group, Center } from "@mantine/core";
+import { Card, Stack, Stepper, Group } from "@mantine/core";
 import React, { useState } from "react";
 import {
   DateSelectionStep,

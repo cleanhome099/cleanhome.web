@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import React, { FC } from "react";
 import { useNavigate } from "react-router-dom";
-import Typical from "react-typical";
 
 import styles from "./home.module.scss";
 import { IHomeProps } from "./home.props";
