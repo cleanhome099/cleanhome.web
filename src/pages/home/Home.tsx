@@ -38,7 +38,7 @@ export const Home: FC<IHomeProps> = () => {
             </Button>
           </div>
         </div>
-        <Testimonials />
+        {/*<Testimonials />*/}
       </motion.section>
     </>
   );
