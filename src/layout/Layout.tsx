@@ -19,7 +19,7 @@ export const Layout: FC<ILayoutProps> = ({ children, ...props }) => (
       <Text size="xs" c="dimmed" m="0 0 1rem 1rem" fw="500">
         © {new Date().getFullYear()} — Created by{' '}
         <Anchor
-          href="https://your-website-or-profile-link.com"
+          href="https://www.linkedin.com/in/razmik-unanian-1b59941a8/"
           target="_blank"
           rel="noopener noreferrer"
           underline="always"
