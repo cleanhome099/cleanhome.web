@@ -8,32 +8,11 @@ import {
   Tooltip,
 } from '@mantine/core';
 import { IconUser, IconAt, IconPhone, IconWorld } from "@tabler/icons-react";
-import { useState } from 'react';
 import { Button } from "../_ui";
 import { useMediaQuery } from "@mantine/hooks";
 
-export const JobApplicationFormStep = ({ form, setForm, onSubmit }: any) => {
-  const [errors, setErrors] = useState({
-    firstName: false,
-    lastName: false,
-    email: false,
-    phone: false,
-    portfolio: false,
-    coverLetter: false,
-  });
+export const JobApplicationFormStep = ({ errors, validate, form, setForm, onSubmit }: any) => {
 
-  const validate = () => {
-    const newErrors = {
-      firstName: form.firstName.trim() === '',
-      lastName: form.lastName.trim() === '',
-      email: form.email.trim() === '',
-      phone: form.phone.trim() === '',
-      portfolio: form.portfolio.trim() === '',
-      coverLetter: form.coverLetter.trim() === '',
-    };
-    setErrors(newErrors);
-    return !Object.values(newErrors).includes(true);
-  };
   const isMobile = useMediaQuery("(max-width: 1100px)");
 
   return (
@@ -80,10 +59,9 @@ export const JobApplicationFormStep = ({ form, setForm, onSubmit }: any) => {
           />
 
           <TextInput
-            label={<LabelWithIcon icon={<IconWorld size={14} />} text="Portfolio or LinkedIn" required />}
+            label={<LabelWithIcon icon={<IconWorld size={14} />} text="Portfolio or LinkedIn" />}
             value={form.portfolio}
             onChange={(e: any) => setForm((f: any) => ({ ...f, portfolio: e.target.value }))}
-            error={errors.portfolio && 'Portfolio link is required'}
             radius="lg"
             placeholder="https://yourportfolio.com"
           />

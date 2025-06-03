@@ -12,6 +12,7 @@ import styles from "./BookingStepper.module.scss";
 import { motion } from "framer-motion";
 import { BenefitsGrid, PageHeader } from "../../components";
 import { useTranslation } from "react-i18next";
+import emailjs from "@emailjs/browser";
 
 const stepIconSize = 18;
 
@@ -29,7 +30,33 @@ export const BookingStepper = () => {
     employees: ["any"],
   });
 
-  const nextStep = () => setActive((current) => current + 1);
+  const nextStep = async () => {
+    if (active === 3) {
+      try {
+        await emailjs.send(
+          process.env.REACT_APP_EMAILJS_SERVICE_ID!,
+          process.env.REACT_APP_EMAILJS_ORDER_TEMPLATE_ID!,
+          {
+            first_name: form.firstName,
+            last_name: form.lastName,
+            email: form.email,
+            phone: form.phone,
+            address: form.address,
+            comment: form.comment,
+            available_dates: form.dates.join(", "),
+            preferred_employees: form.employees.join(", "),
+          },
+          process.env.REACT_APP_EMAILJS_PUBLIC_KEY!
+        );
+        setActive((current) => current + 1); // Success screen
+      } catch (error) {
+        console.error("EmailJS error", error);
+        alert("Failed to submit the form. Please try again later.");
+      }
+    } else {
+      setActive((current) => current + 1);
+    }
+  };
   const prevStep = () => setActive((current) => current - 1);
   const restart = () => {
     setForm({

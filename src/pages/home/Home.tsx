@@ -8,12 +8,13 @@ import { IHomeProps } from "./home.props";
 import { ReactComponent as Avatar } from "../../assets/cleaning service-amico.svg";
 import { Button, Socials, Testimonials } from "../../components";
 import { useTranslation } from "react-i18next";
+import { Typewriter } from "react-simple-typewriter";
 
 export const Home: FC<IHomeProps> = () => {
   const navigate = useNavigate();
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
-  const steps = [t("home.offer.deepCleaning"), 3000, t("home.offer.moveIn"), 3000, t("home.offer.apartment"), 3000];
+  const steps = [t("home.offer.deepCleaning"), t("home.offer.moveIn"), t("home.offer.apartment")];
   return (
     <>
       <motion.section className={styles.home} initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
@@ -22,7 +23,15 @@ export const Home: FC<IHomeProps> = () => {
             <Avatar className={styles.home_img} />
             <h1 className={styles.home_name}>{t("home.title")}</h1>
             <span className={styles.education}>
-            {t("home.offer.weOffer")}: <Typical steps={steps} loop={Infinity} wrapper="span" />
+            {t("home.offer.weOffer")}: <Typewriter
+              words={steps}
+              loop={true}
+              cursor
+              cursorStyle="|"
+              typeSpeed={70}
+              deleteSpeed={50}
+              delaySpeed={1000}
+            />
           </span>
             <Socials />
             <Button buttonType="animate" onClick={() => navigate("/services")}>
