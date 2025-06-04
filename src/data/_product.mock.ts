@@ -8,7 +8,7 @@ export const PRODUCT_MOCK: IProduct[] = [
     id: 1,
     category: "Apartments cleaning",
     images: {
-      main: "https://www.mollymaid.com/us/en-us/_assets/images/service-header-images/mly-home-cleaning-header-desktop.webp",
+      main: "https://galmangroup.com/wp-content/uploads/2021/12/whitney-apartments-featured-image.jpg",
     },
     tags: ["house", "cleaning"],
   },
