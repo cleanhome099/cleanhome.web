@@ -6,7 +6,7 @@ import styles from "./sidebar.module.scss";
 import { ISidebarProps } from "./sidebar.props";
 import { NavItem } from "../../components";
 import { IconMail, IconHome, IconBriefcase, IconX, IconMenu2, IconSpray  } from "@tabler/icons-react";
-import loofah from "./sweet.png"
+import loofah from "./sweet.png";
 import { useTranslation } from "react-i18next";
 
 export const Sidebar: FC<ISidebarProps> = () => {

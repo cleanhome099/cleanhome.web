@@ -11,7 +11,7 @@ interface NavItemProps {
 
 export const NavItem:FC<NavItemProps> = ({ label, to, icon, onClick }) => {
   const active = ({ isActive }: { isActive: boolean }) => ({
-    color: isActive ? "#6c6ce5" : "hsl(247,4%,58%)",
+    color: isActive ? "#3d5632" : "hsl(247,4%,58%)",
     '&:hover': {
       color: 'hsl(244, 24%, 26%)',
     },

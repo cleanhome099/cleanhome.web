@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 import styles from "./home.module.scss";
 import { IHomeProps } from "./home.props";
 import { ReactComponent as Avatar } from "../../assets/cleaning service-amico.svg";
-import { Button, Socials } from "../../components";
+import { Button, Socials, Testimonials } from "../../components";
 import { useTranslation } from "react-i18next";
 import { Typewriter } from "react-simple-typewriter";
 
@@ -38,7 +38,7 @@ export const Home: FC<IHomeProps> = () => {
             </Button>
           </div>
         </div>
-        {/*<Testimonials />*/}
+        <Testimonials />
       </motion.section>
     </>
   );

@@ -3,31 +3,34 @@ import {
   Box,
   Card,
   Group,
-  Rating, Stack,
+  Rating,
   Text, Title
 } from "@mantine/core";
 import { motion } from 'framer-motion';
 import styles from './Testimonials.module.scss';
 import { useTranslation } from "react-i18next";
+import Evgeniya from './Evgeniya.png'
+import Victoria from './Victoria.png'
+import Valoree from './Valoree.png'
 
 const testimonials = [
   {
-    name: 'Natalia Martínez',
-    avatar: 'https://randomuser.me/api/portraits/women/44.jpg',
+    name: 'Victoria Brann-Cummings',
+    avatar: Victoria,
     rating: 5,
-    text: 'Excelente servicio de limpieza. Muy profesionales y atentos a los detalles.',
+    text: 'Our family has entrusted them for many, many years in our homes and businesses. There\'s something about walking into a clean house that just helps melt stress and exhaustion away! Excellent...',
   },
   {
-    name: 'John Smith',
-    avatar: 'https://randomuser.me/api/portraits/men/32.jpg',
+    name: 'Evgeniya O\'Leary\n',
+    avatar: Evgeniya,
     rating: 5,
-    text: 'Very satisfied with the service. The cleaner was punctual and polite.',
+    text: "Great housecleaning services, fast and reliable. Competitive prices. Highly recommended",
   },
   {
-    name: 'Maria López',
-    avatar: 'https://randomuser.me/api/portraits/women/65.jpg',
+    name: 'Valoree Lalime',
+    avatar: Valoree,
     rating: 5,
-    text: '¡Me encantó el resultado! Todo quedó impecable. Volveré a contratar.',
+    text: 'Very good service and lots of experience. You should give them a try!',
   },
 ];
 
@@ -47,7 +50,7 @@ export const  Testimonials = () => {
             transition={{ delay: i * 0.3, duration: 0.6 }}
             style={{ marginBottom: '1.5rem' }}
           >
-            <Card shadow="lg" radius="lg" padding="lg" bg="none" w={300} h={120}>
+            <Card shadow="lg" radius="lg" padding="lg" bg="none" w={300} h={200}>
               <Group mb="sm">
                 <Avatar src={t.avatar} alt={t.name} radius="xl" />
                 <div>

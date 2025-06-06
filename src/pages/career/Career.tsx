@@ -71,7 +71,7 @@ export const Career = () => {
   };
 
   return (
-    <Center pt="4rem">
+    <Center pt="2rem">
       <Stack gap={2} align="center">
         <PageHeader title={t("career.title")} text={t("career.text")} />
         {showSuccess && <Success />}
