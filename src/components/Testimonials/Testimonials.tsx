@@ -50,7 +50,7 @@ export const  Testimonials = () => {
             transition={{ delay: i * 0.3, duration: 0.6 }}
             style={{ marginBottom: '1.5rem' }}
           >
-            <Card shadow="lg" radius="lg" padding="lg" bg="none" w={300} h={200}>
+            <Card shadow="lg" radius="lg" padding="lg" bg="none" w={300} >
               <Group mb="sm">
                 <Avatar src={t.avatar} alt={t.name} radius="xl" />
                 <div>
