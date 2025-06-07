@@ -36,21 +36,21 @@ export const PRODUCT_MOCK: IProduct[] = [
 
     tags: ["house", "cleaning"],
   },
-];
-
-export const SOON = [
   {
-    title: "roof",
+    title: "handyman",
     price: 150,
-    isSoon: true,
+    isSoon: false,
     id: 4,
-    category: "Cleaning the roof",
+    category: "Handyman",
     images: {
-      main: "https://airtasker-seo-assets-prod.s3.amazonaws.com/en_AU/1628496616932_roof-cleaning.jpg",
+      main: "https://tegrete.com/wp-content/uploads/2023/02/shutterstock_2058408935.jpg",
     },
     tags: ["roof", "cleaning", "house"],
     descriptions: "Soon",
   },
+];
+
+export const SOON = [
   {
     title: "A/C",
     price: 199,
