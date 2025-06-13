@@ -4,10 +4,11 @@ import { useNavigate } from "react-router-dom";
 
 import styles from "./home.module.scss";
 import { IHomeProps } from "./home.props";
-import { ReactComponent as Avatar } from "../../assets/cleaning service-amico.svg";
+import Avatar from "../../assets/logo512.png";
 import { Button, Socials, Testimonials } from "../../components";
 import { useTranslation } from "react-i18next";
 import { Typewriter } from "react-simple-typewriter";
+import { Image } from "@mantine/core";
 
 export const Home: FC<IHomeProps> = () => {
   const navigate = useNavigate();
@@ -19,8 +20,8 @@ export const Home: FC<IHomeProps> = () => {
       <motion.section className={styles.home} initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
         <div className={styles.introWrapper}>
           <div className={styles.intro}>
-            <Avatar className={styles.home_img} />
-            <h1 className={styles.home_name}>{t("home.title")}</h1>
+            <Image h={190} src={Avatar} className={styles.home_img} />
+            {/*<h1 className={styles.home_name}>{t("home.title")}</h1>*/}
             <span className={styles.education}>
             {t("home.offer.weOffer")}: <Typewriter
               words={steps}

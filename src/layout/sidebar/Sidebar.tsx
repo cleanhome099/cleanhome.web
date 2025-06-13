@@ -35,7 +35,7 @@ export const Sidebar: FC<ISidebarProps> = () => {
               icon={<IconSpray   size={15} />}
               onClick={handleClose}
             />
-            <NavItem to="/career" label={t("nav.career")} icon={<IconBriefcase size={15} />} onClick={handleClose} />
+            {/*<NavItem to="/career" label={t("nav.career")} icon={<IconBriefcase size={15} />} onClick={handleClose} />*/}
             <NavItem to="/contact" label={t("nav.contact")} icon={<IconMail size={15} />} onClick={handleClose} />
           </ul>
         </nav>
