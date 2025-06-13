@@ -30,17 +30,17 @@ export const Product: FC<IProductProps> = () => {
         <PageHeader title={t("product.title")} text={t("product.text")}/>
         <Grid gutter="lg">
 
-          {cards.slice(0, 3).map((card, index) => (
-            <Grid.Col key={index} span={isMobile ? 12 : 4}>
+          {cards.slice(0, 2).map((card, index) => (
+            <Grid.Col key={index} span={isMobile ? 12 : 6}>
               {card}
             </Grid.Col>
           ))}
 
-          {cards.slice(3, 5).map((card, index) => (
-            <Grid.Col key={index + 3} span={isMobile ? 12 : 6}>
-              {card}
-            </Grid.Col>
-          ))}
+          {/*{cards.slice(3, 5).map((card, index) => (*/}
+          {/*  <Grid.Col key={index + 3} span={isMobile ? 12 : 6}>*/}
+          {/*    {card}*/}
+          {/*  </Grid.Col>*/}
+          {/*))}*/}
 
         </Grid>
       </div>

@@ -2,7 +2,7 @@ import { IProduct } from "../interface";
 
 export const PRODUCT_MOCK: IProduct[] = [
   {
-    title: "apartmentsHouse",
+    title: "apartments",
     price: 300,
     isSoon: false,
     id: 1,
@@ -10,6 +10,18 @@ export const PRODUCT_MOCK: IProduct[] = [
     images: {
       main: "https://galmangroup.com/wp-content/uploads/2021/12/whitney-apartments-featured-image.jpg",
     },
+    tags: ["house", "cleaning"],
+  },
+  {
+    title: "house",
+    price: 300,
+    isSoon: false,
+    id: 3,
+    category: "Office cleaning",
+    images: {
+      main:  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsnvR_Y7YVyw6c2Bd60NDT9HM8SjI-wtjJGw&s",
+    },
+
     tags: ["house", "cleaning"],
   },
   {
@@ -25,25 +37,13 @@ export const PRODUCT_MOCK: IProduct[] = [
     tags: ["house", "cleaning"],
   },
   {
-    title: "office",
-    price: 300,
-    isSoon: false,
-    id: 3,
-    category: "Office cleaning",
-    images: {
-      main:  "https://aztecjanitorial.com/wp-content/uploads/2022/05/Commercial-Cleaning-houston.jpg",
-    },
-
-    tags: ["house", "cleaning"],
-  },
-  {
     title: "handyman",
     price: 150,
     isSoon: false,
     id: 4,
     category: "Handyman",
     images: {
-      main: "https://tegrete.com/wp-content/uploads/2023/02/shutterstock_2058408935.jpg",
+      main: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsnvR_Y7YVyw6c2Bd60NDT9HM8SjI-wtjJGw&s",
     },
     tags: ["roof", "cleaning", "house"],
     descriptions: "Soon",
