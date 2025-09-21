@@ -23,11 +23,7 @@ export const CleaningServices = () => {
       {/* HERO */}
       <section className={styles.hero}>
         <div className={styles.heroGrid}>
-          <motion.div
-            initial={{ opacity: 0, x: -50 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8 }}
-          >
+          <div>
             <h1 className={styles.heroTitle}>
               Professional Cleaning Services for Every Need
             </h1>
@@ -56,7 +52,7 @@ export const CleaningServices = () => {
                 <span className={styles.contactText}>www.houstoncleanhome.com</span>
               </div>
             </div>
-          </motion.div>
+          </div>
 
           <motion.div
             className={styles.heroImageWrapper}
