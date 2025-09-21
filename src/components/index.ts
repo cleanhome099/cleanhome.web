@@ -12,3 +12,4 @@ export * from "./ServiceCard/ServaceCard";
 export * from "./JobApplicationFormStep/JobApplicationFormStep";
 export * from "./StepsFooter/StepsFooter";
 export * from "./Success/Success";
+export * from "./SteamCleaningHero/SteamCleaningHero";

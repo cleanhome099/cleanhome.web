@@ -3,12 +3,13 @@ import { motion } from "framer-motion";
 import React, { FC } from "react";
 
 import { IProductProps } from "./product.props";
-import { ServiceCard, PageHeader } from "../../components";
+import { ServiceCard, PageHeader, SteamCleaningHero } from "../../components";
 import { PRODUCT_MOCK, SOON } from "../../data";
 
 import styles from "./product.module.scss";
 import { useMediaQuery } from "@mantine/hooks";
 import { useTranslation } from "react-i18next";
+import { CleaningServices } from "../../components/CleaningServices/CleaningServices";
 
 export const Product: FC<IProductProps> = () => {
   const { t } = useTranslation();
@@ -27,22 +28,23 @@ export const Product: FC<IProductProps> = () => {
   return (
     <section className={styles.wrapper}>
       <div className={styles.content}>
-        <PageHeader title={t("product.title")} text={t("product.text")}/>
-        <Grid gutter="lg">
+        {/*<PageHeader title={t("product.title")} text={t("product.text")}/>*/}
+        <CleaningServices/>
+        {/*<Grid gutter="lg">*/}
 
-          {cards.slice(0, 2).map((card, index) => (
-            <Grid.Col key={index} span={isMobile ? 12 : 6}>
-              {card}
-            </Grid.Col>
-          ))}
+        {/*  {cards.slice(0, 2).map((card, index) => (*/}
+        {/*    <Grid.Col key={index} span={isMobile ? 12 : 6}>*/}
+        {/*      {card}*/}
+        {/*    </Grid.Col>*/}
+        {/*  ))}*/}
 
-          {/*{cards.slice(3, 5).map((card, index) => (*/}
-          {/*  <Grid.Col key={index + 3} span={isMobile ? 12 : 6}>*/}
-          {/*    {card}*/}
-          {/*  </Grid.Col>*/}
-          {/*))}*/}
+        {/*  /!*{cards.slice(3, 5).map((card, index) => (*!/*/}
+        {/*  /!*  <Grid.Col key={index + 3} span={isMobile ? 12 : 6}>*!/*/}
+        {/*  /!*    {card}*!/*/}
+        {/*  /!*  </Grid.Col>*!/*/}
+        {/*  /!*))}*!/*/}
 
-        </Grid>
+        {/*</Grid>*/}
       </div>
     </section>
   );

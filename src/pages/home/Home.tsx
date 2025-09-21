@@ -14,7 +14,7 @@ export const Home: FC<IHomeProps> = () => {
   const navigate = useNavigate();
   const { t } = useTranslation();
 
-  const steps = [t("home.offer.deepCleaning"), t("home.offer.moveIn"), t("home.offer.apartment")];
+  const steps = [t("home.offer.deepCleaning"), t("home.offer.moveIn"), "Steam Cleaning"];
   return (
     <>
       <motion.section className={styles.home} initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
