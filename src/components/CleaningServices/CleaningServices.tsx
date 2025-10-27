@@ -14,12 +14,14 @@ import styles from "./CleaningServices.module.scss";
 import { SteamCleaningHero } from "../SteamCleaningHero/SteamCleaningHero";
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import { ExtraServices } from "../ExtraServices/ExtraServices";
 
 export const CleaningServices = () => {
   const navigate = useNavigate();
   const handleBook = () => navigate(`/services/booking/1`)
   return (
     <div className={styles.wrapper}>
+      <ExtraServices/>
       {/* HERO */}
       <section className={styles.hero}>
         <div className={styles.heroGrid}>
@@ -216,7 +218,7 @@ export const CleaningServices = () => {
 }
 
 // Card component
-function ServiceCard({
+export function ServiceCard({
                        icon,
                        title,
                        description,

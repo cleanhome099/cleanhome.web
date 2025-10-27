@@ -13,3 +13,4 @@ export * from "./JobApplicationFormStep/JobApplicationFormStep";
 export * from "./StepsFooter/StepsFooter";
 export * from "./Success/Success";
 export * from "./SteamCleaningHero/SteamCleaningHero";
+export * from "./ExtraServices/ExtraServices";
