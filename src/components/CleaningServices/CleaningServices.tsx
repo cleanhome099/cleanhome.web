@@ -21,7 +21,8 @@ export const CleaningServices = () => {
   const handleBook = () => navigate(`/services/booking/1`)
   return (
     <div className={styles.wrapper}>
-      <ExtraServices/>
+
+      <SteamCleaningHero/>
       {/* HERO */}
       <section className={styles.hero}>
         <div className={styles.heroGrid}>
@@ -70,7 +71,6 @@ export const CleaningServices = () => {
           </motion.div>
         </div>
       </section>
-      <SteamCleaningHero/>
       {/* SERVICES */}
       <section className={styles.services}>
         <div className={styles.container}>
@@ -213,6 +213,7 @@ export const CleaningServices = () => {
           </div>
         </div>
       </section>
+      <ExtraServices/>
     </div>
   );
 }
