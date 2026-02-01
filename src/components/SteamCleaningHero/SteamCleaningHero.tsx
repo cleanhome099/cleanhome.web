@@ -38,12 +38,12 @@ export const SteamCleaningHero = ()=> {
               <div className={styles.contactItem}>
                 <IconPhone size={20} />
                 <span className={styles.contactText}>
-                  Call or Text: <strong>832-883-7460</strong>
+                  Call or Text: <strong>346-630-8191</strong>
                 </span>
               </div>
               <div className={styles.contactItem}>
                 <IconMail size={20} />
-                <span className={styles.contactText}>cleanhomehouston@gmail.com</span>
+                <span className={styles.contactText}>cleanhome099@gmail.com</span>
               </div>
               <div className={styles.contactItem}>
                 <IconWorld size={20} />
